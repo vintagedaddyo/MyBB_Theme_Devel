@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme name="Devel" version="1821">
+<theme name="Devel" version="1822">
 	<properties>
-		<templateset><![CDATA[11]]></templateset>
+		<templateset><![CDATA[2]]></templateset>
 		<editortheme><![CDATA[mybb.css]]></editortheme>
 		<imgdir><![CDATA[themes/devel]]></imgdir>
 		<logo><![CDATA[themes/devel/logo.png]]></logo>
@@ -12,7 +12,7 @@
 		<disporder><![CDATA[a:18:{s:10:"global.css";i:1;s:8:"css3.css";i:2;s:14:"memberlist.css";i:3;s:17:"thread_status.css";i:4;s:16:"star_ratings.css";i:5;s:10:"usercp.css";i:6;s:14:"showthread.css";i:7;s:9:"modcp.css";i:8;s:15:"color_black.css";i:9;s:14:"color_calm.css";i:10;s:14:"color_dawn.css";i:11;s:15:"color_earth.css";i:12;s:15:"color_flame.css";i:13;s:14:"color_leaf.css";i:14;s:15:"color_night.css";i:15;s:13:"color_sun.css";i:16;s:18:"color_twilight.css";i:17;s:15:"color_water.css";i:18;}]]></disporder>
 	</properties>
 	<stylesheets>
-		<stylesheet name="global.css" version="1821"><![CDATA[/*
+		<stylesheet name="global.css" version="1822"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: global.css
@@ -1981,9 +1981,10 @@ div.jqi .jqisubstate .jqibuttons button {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="css3.css" version="1821"><![CDATA[/*
+		<stylesheet name="css3.css" version="1822"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: css3.css
@@ -2136,9 +2137,10 @@ a.button {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="memberlist.css" version="1821"><![CDATA[/*
+		<stylesheet name="memberlist.css" version="1822"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: memberlist.css
@@ -2255,9 +2257,10 @@ h4 {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1821"><![CDATA[/*
+		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1822"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: thread_status.css
@@ -2613,9 +2616,10 @@ h4 {
     background-color: #333;
     border: #333 1px solid;
 }
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1821"><![CDATA[/*
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1822"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: star_rating.css
@@ -2733,9 +2737,10 @@ margin:0 auto;
 }
 
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1821"><![CDATA[/*
+		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1822"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: usercp.css
@@ -2966,9 +2971,10 @@ td[class^=trow]{
 }
 
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="showthread.css" attachedto="showthread.php" version="1821"><![CDATA[/*
+		<stylesheet name="showthread.css" attachedto="showthread.php" version="1822"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: showthread.css
@@ -3120,9 +3126,10 @@ ul.thread_tools li.poll:after {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="modcp.css" attachedto="modcp.php" version="1821"><![CDATA[/*
+		<stylesheet name="modcp.css" attachedto="modcp.php" version="1822"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: modcp.css
@@ -3220,9 +3227,10 @@ ul.thread_tools li.poll:after {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_black.css" attachedto="black" version="1821"><![CDATA[a:link,
+		<stylesheet name="color_black.css" attachedto="black" version="1822"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3335,9 +3343,10 @@ color: #202121;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_calm.css" attachedto="calm" version="1821"><![CDATA[a:link,
+		<stylesheet name="color_calm.css" attachedto="calm" version="1822"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3417,9 +3426,10 @@ color: #385947;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_dawn.css" attachedto="dawn" version="1821"><![CDATA[a:link,
+		<stylesheet name="color_dawn.css" attachedto="dawn" version="1822"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3499,9 +3509,10 @@ color: #d56c2c;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_earth.css" attachedto="earth" version="1821"><![CDATA[a:link,
+		<stylesheet name="color_earth.css" attachedto="earth" version="1822"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3580,9 +3591,10 @@ color: #4a3b2f;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_flame.css" attachedto="flame" version="1821"><![CDATA[a:link,
+		<stylesheet name="color_flame.css" attachedto="flame" version="1822"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3662,9 +3674,10 @@ color: #750000;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_leaf.css" attachedto="leaf" version="1821"><![CDATA[a:link,
+		<stylesheet name="color_leaf.css" attachedto="leaf" version="1822"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3744,9 +3757,10 @@ color: #386e21;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_night.css" attachedto="night" version="1821"><![CDATA[a:link,
+		<stylesheet name="color_night.css" attachedto="night" version="1822"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3825,9 +3839,10 @@ color: #022338;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_sun.css" attachedto="sun" version="1821"><![CDATA[a:link,
+		<stylesheet name="color_sun.css" attachedto="sun" version="1822"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3914,9 +3929,10 @@ color: #ffdd4d;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_twilight.css" attachedto="twilight" version="1821"><![CDATA[a:link,
+		<stylesheet name="color_twilight.css" attachedto="twilight" version="1822"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3995,9 +4011,10 @@ color: #273a46;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_water.css" attachedto="water" version="1821"><![CDATA[a:link,
+		<stylesheet name="color_water.css" attachedto="water" version="1822"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -4071,6 +4088,7 @@ color: #1e6365;
 }
 
 
+		
 		
 		
 		
@@ -4324,7 +4342,7 @@ $(document).ready(function(){
 		<template name="header_menu_memberlist" version="1807"><![CDATA[<li><a href="{$mybb->settings['bburl']}/memberlist.php" class="memberlist"><i class="fa fa-users toplinks-memberlist"></i>{$lang->toplinks_memberlist}</a></li>]]></template>
 		<template name="header_menu_portal" version="1807"><![CDATA[<li><a href="{$mybb->settings['bburl']}/portal.php" class="portal"><i class="fa fa-bell toplinks-portal"></i>{$lang->toplinks_portal}</a></li>]]></template>
 		<template name="header_menu_search" version="1807"><![CDATA[<li><a href="{$mybb->settings['bburl']}/search.php" class="search"><i class="fa fa-search toplinks-search"></i>{$lang->toplinks_search}</a></li>]]></template>
-		<template name="header_quicksearch" version="1807"><![CDATA[						<form action="{$mybb->settings['bburl']}/search.php" method="post">
+		<template name="header_quicksearch" version="1822"><![CDATA[						<form action="{$mybb->settings['bburl']}/search.php">
 						<fieldset id="search">
                             <input name="keywords" type="text" class="textbox" placeholder="Search..." />
                             <i class="fa fa-search search_icon"></i><input value="" type="submit" class="search_icon" />
@@ -4463,9 +4481,9 @@ lang.click_mark_read = "{$lang->click_mark_read}";
 </tbody>
 </table>
 <br />]]></template>
-		<template name="index_logoutlink" version="1819"><![CDATA[<a href="member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}"><i class="fa fa-power-off tfoot-logout"></i>{$lang->index_logout}</a> |]]></template>
+		<template name="index_logoutlink" version="1822"><![CDATA[<a href="member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}"><i class="fa fa-power-off tfoot-logout"></i>{$lang->index_logout}</a> |]]></template>
 		<template name="index_showteamlink" version="1819"><![CDATA[<a href="showteam.php"><i class="fa fa-group tfoot-team"></i>{$lang->forumteam}</a>]]></template>
-		<template name="index_statspage" version="1819"><![CDATA[ |
+		<template name="index_statspage" version="1822"><![CDATA[ 
 			<a href="stats.php"><i class="fa fa-bar-chart tfoot-stats"></i>{$lang->forumstats}</a>]]></template>
 		<template name="memberlist" version="1821"><![CDATA[<html>
 <head>
