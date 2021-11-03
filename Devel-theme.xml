@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme name="Devel" version="1822">
+<theme name="Devel" version="1829">
 	<properties>
-		<templateset><![CDATA[2]]></templateset>
+		<templateset><![CDATA[11]]></templateset>
 		<editortheme><![CDATA[mybb.css]]></editortheme>
 		<imgdir><![CDATA[themes/devel]]></imgdir>
 		<logo><![CDATA[themes/devel/logo.png]]></logo>
@@ -12,7 +12,7 @@
 		<disporder><![CDATA[a:18:{s:10:"global.css";i:1;s:8:"css3.css";i:2;s:14:"memberlist.css";i:3;s:17:"thread_status.css";i:4;s:16:"star_ratings.css";i:5;s:10:"usercp.css";i:6;s:14:"showthread.css";i:7;s:9:"modcp.css";i:8;s:15:"color_black.css";i:9;s:14:"color_calm.css";i:10;s:14:"color_dawn.css";i:11;s:15:"color_earth.css";i:12;s:15:"color_flame.css";i:13;s:14:"color_leaf.css";i:14;s:15:"color_night.css";i:15;s:13:"color_sun.css";i:16;s:18:"color_twilight.css";i:17;s:15:"color_water.css";i:18;}]]></disporder>
 	</properties>
 	<stylesheets>
-		<stylesheet name="global.css" version="1822"><![CDATA[/*
+		<stylesheet name="global.css" version="1829"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: global.css
@@ -1977,14 +1977,9 @@ div.jqi .jqisubstate .jqibuttons button {
 	border-bottom: 1px solid #000;
 }
 
-/* END: Custom Scrollbar */		
-		
-		
-		
-		
-		]]>
+/* END: Custom Scrollbar */		]]>
 		</stylesheet>
-		<stylesheet name="css3.css" version="1822"><![CDATA[/*
+		<stylesheet name="css3.css" version="1829"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: css3.css
@@ -2131,16 +2126,9 @@ a.button {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-}
-		
-		
-		
-		
-		
-		
-		]]>
+}]]>
 		</stylesheet>
-		<stylesheet name="memberlist.css" version="1822"><![CDATA[/*
+		<stylesheet name="memberlist.css" version="1829"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: memberlist.css
@@ -2152,7 +2140,6 @@ a.button {
  * Theme Version: 1.1
  * 
  */
-
 
 .memberlistprofile {
 	display: inline-table;
@@ -2252,15 +2239,9 @@ h4 {
 	width: 100%;
 	text-align: center;
 }
-}
-
-		
-		
-		
-		
-		]]>
+}		]]>
 		</stylesheet>
-		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1822"><![CDATA[/*
+		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1829"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: thread_status.css
@@ -2615,11 +2596,9 @@ h4 {
     z-index: 0;
     background-color: #333;
     border: #333 1px solid;
-}
-		
-		]]>
+}]]>
 		</stylesheet>
-		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1822"><![CDATA[/*
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1829"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: star_rating.css
@@ -2632,7 +2611,7 @@ h4 {
  * 
  */
 
-	.star_rating_container {
+.star_rating_container {
    display:inline-block;
    vertical-align:middle;
    margin-right:6px;
@@ -2717,7 +2696,6 @@ li[style*="100"]~ li:nth-child(n+2) a  {
   right:3px;
 }
 
-
 .inline_rating {
   float: left;
   vertical-align: middle;
@@ -2734,13 +2712,9 @@ li[style*="100"]~ li:nth-child(n+2) a  {
 td[id*="rating_table"] {
 text-align:center;
 margin:0 auto;
-}
-
-		
-		
-		]]>
+}]]>
 		</stylesheet>
-		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1822"><![CDATA[/*
+		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1829"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: usercp.css
@@ -2968,13 +2942,9 @@ td[class^=trow]{
 	top:11px; right:5px; 
 	color: #663096; 
 	font-size:16px;
-}
-
-		
-		
-		]]>
+}]]>
 		</stylesheet>
-		<stylesheet name="showthread.css" attachedto="showthread.php" version="1822"><![CDATA[/*
+		<stylesheet name="showthread.css" attachedto="showthread.php" version="1829"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: showthread.css
@@ -3121,15 +3091,9 @@ ul.thread_tools li.poll:after {
 	text-align: center;
 	padding: 20px;
 	width: 100%;
-}
-		
-		
-		
-		
-		
-		]]>
+}]]>
 		</stylesheet>
-		<stylesheet name="modcp.css" attachedto="modcp.php" version="1822"><![CDATA[/*
+		<stylesheet name="modcp.css" attachedto="modcp.php" version="1829"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: modcp.css
@@ -3222,15 +3186,9 @@ ul.thread_tools li.poll:after {
     margin: 0;
     width: 150px;
     padding: 0;
-}
-
-		
-		
-		
-		
-		]]>
+}]]>
 		</stylesheet>
-		<stylesheet name="color_black.css" attachedto="black" version="1822"><![CDATA[a:link,
+		<stylesheet name="color_black.css" attachedto="black" version="1829"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3344,9 +3302,10 @@ color: #202121;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_calm.css" attachedto="calm" version="1822"><![CDATA[a:link,
+		<stylesheet name="color_calm.css" attachedto="calm" version="1829"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3427,9 +3386,10 @@ color: #385947;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_dawn.css" attachedto="dawn" version="1822"><![CDATA[a:link,
+		<stylesheet name="color_dawn.css" attachedto="dawn" version="1829"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3510,9 +3470,10 @@ color: #d56c2c;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_earth.css" attachedto="earth" version="1822"><![CDATA[a:link,
+		<stylesheet name="color_earth.css" attachedto="earth" version="1829"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3592,9 +3553,10 @@ color: #4a3b2f;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_flame.css" attachedto="flame" version="1822"><![CDATA[a:link,
+		<stylesheet name="color_flame.css" attachedto="flame" version="1829"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3675,9 +3637,10 @@ color: #750000;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_leaf.css" attachedto="leaf" version="1822"><![CDATA[a:link,
+		<stylesheet name="color_leaf.css" attachedto="leaf" version="1829"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3758,9 +3721,10 @@ color: #386e21;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_night.css" attachedto="night" version="1822"><![CDATA[a:link,
+		<stylesheet name="color_night.css" attachedto="night" version="1829"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3840,9 +3804,10 @@ color: #022338;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_sun.css" attachedto="sun" version="1822"><![CDATA[a:link,
+		<stylesheet name="color_sun.css" attachedto="sun" version="1829"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3930,9 +3895,10 @@ color: #ffdd4d;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_twilight.css" attachedto="twilight" version="1822"><![CDATA[a:link,
+		<stylesheet name="color_twilight.css" attachedto="twilight" version="1829"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -4012,9 +3978,10 @@ color: #273a46;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_water.css" attachedto="water" version="1822"><![CDATA[a:link,
+		<stylesheet name="color_water.css" attachedto="water" version="1829"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -4088,6 +4055,7 @@ color: #1e6365;
 }
 
 
+		
 		
 		
 		
@@ -4175,7 +4143,7 @@ color: #1e6365;
 
         
     </td>]]></template>
-		<template name="header" version="1820"><![CDATA[<div id="container">
+		<template name="header" version="1829"><![CDATA[<div id="container">
 <a name="top" id="top"></a>
 <div id="header">
 <div id="logo">
@@ -4210,10 +4178,10 @@ color: #1e6365;
       {$menu_memberlist}
       {$menu_calendar}
       <li><a href="{$mybb->settings['bburl']}/misc.php?action=help" class="help"><i class="fa fa-question-circle toplinks-help"></i>{$lang->toplinks_help}</a></li>
-    </ul>
-    {$welcomeblock} 
+    </ul>		
+    {$welcomeblock}   
     <!-- </div> in header_welcomeblock_member and header_welcomeblock_guest --> 
-    <!-- </div> in header_welcomeblock_member and header_welcomeblock_guest --> 
+    <!-- </div> in header_welcomeblock_member and header_welcomeblock_guest -->  
   </div>
 </div>
 <div id="content">
@@ -4227,18 +4195,17 @@ color: #1e6365;
 				{$awaitingusers}
 <navigation>
 <br />]]></template>
-		<template name="headerinclude" version="1820"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
+		<template name="headerinclude" version="1829"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
 <link rel="alternate" type="application/atom+xml" title="{$lang->latest_threads} (Atom 1.0)" href="{$mybb->settings['bburl']}/syndication.php?type=atom1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset={$charset}" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <!-- Add Favicon -->
 <link rel="Shortcut icon" href="{$theme['imgdir']}/favicon.ico" />
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.js?ver=1820"></script>
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.plugins.min.js?ver=1820"></script>
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/general.js?ver=1820"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.js?ver=1823"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.plugins.min.js?ver=1821"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/general.js?ver=1827"></script>
 
 {$stylesheets}
-
 
 <!-- FontAwesome -->
 
@@ -4300,7 +4267,9 @@ $(document).ready(function(){
 <script type="text/javascript">
 <!--
 	lang.unknown_error = "{$lang->unknown_error}";
-
+	lang.confirm_title = "{$lang->confirm_title}";
+	lang.expcol_collapse = "{$lang->expcol_collapse}";
+	lang.expcol_expand = "{$lang->expcol_expand}";
 	lang.select2_match = "{$lang->select2_match}";
 	lang.select2_matches = "{$lang->select2_matches}";
 	lang.select2_nomatches = "{$lang->select2_nomatches}";
@@ -4368,11 +4337,11 @@ $(document).ready(function(){
 				<script type="text/javascript">
 					$("#quick_login input[name='url']").val($(location).attr('href'));
 				</script>]]></template>
-		<template name="header_welcomeblock_guest_login_modal" version="1819"><![CDATA[							<tr>
+		<template name="header_welcomeblock_guest_login_modal" version="1829"><![CDATA[							<tr>
 								<td class="login_form quick_username">
-                                  <i class="fa fa-user quick_username"></i><input value="" name="quick_username" type="text" placeholder="{$login_username}" id="quick_login_username" class="textbox">
+                                  <i class="fa fa-user quick_username"></i><input value="" name="quick_username" type="text" placeholder="{$login_username}" id="quick_login_username" class="textbox initial_focus">
                                 </td>
-                              	<td class="login_form submit"  rowspan="2" vertical-align="middle">
+                              	<td class="login_form submit" rowspan="2" vertical-align="middle">
 									<input name="submit" type="submit" class="login" value="{$lang->login}" />
 								</td>  						
 							<tr>
@@ -4485,7 +4454,7 @@ lang.click_mark_read = "{$lang->click_mark_read}";
 		<template name="index_showteamlink" version="1819"><![CDATA[<a href="showteam.php"><i class="fa fa-group tfoot-team"></i>{$lang->forumteam}</a>]]></template>
 		<template name="index_statspage" version="1822"><![CDATA[ 
 			<a href="stats.php"><i class="fa fa-bar-chart tfoot-stats"></i>{$lang->forumstats}</a>]]></template>
-		<template name="memberlist" version="1821"><![CDATA[<html>
+		<template name="memberlist" version="1829"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->member_list}</title>
 {$headerinclude}
@@ -4580,48 +4549,48 @@ lang.click_mark_read = "{$lang->click_mark_read}";
 <!--
 if(use_xmlhttprequest == "1")
 {
-    MyBB.select2();
-    $("#username").select2({
-        placeholder: "{$lang->search_user}",
-        minimumInputLength: 3,
-        maximumSelectionSize: 3,
-        multiple: false,
-        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
-            url: "xmlhttp.php?action=get_users",
-            dataType: 'json',
-            data: function (term, page) {
-                return {
-                    query: term, // search term
-                };
-            },
-            results: function (data, page) { // parse the results into the format expected by Select2.
-                // since we are using custom formatting functions we do not need to alter remote JSON data
-                return {results: data};
-            }
-        },
-        initSelection: function(element, callback) {
-            var value = $(element).val();
-            if (value !== "") {
-                callback({
-                    id: value,
-                    text: value
-                });
-            }
-        },
-      // Allow the user entered text to be selected as well
-      createSearchChoice:function(term, data) {
-            if ( $(data).filter( function() {
-                return this.text.localeCompare(term)===0;
-            }).length===0) {
-                return {id:term, text:term};
-            }
-        },
-    });
+	MyBB.select2();
+	$("#username").select2({
+		placeholder: "{$lang->search_user}",
+		minimumInputLength: 2,
+		multiple: false,
+		allowClear: true,
+		ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+			url: "xmlhttp.php?action=get_users",
+			dataType: 'json',
+			data: function (term, page) {
+				return {
+					query: term, // search term
+				};
+			},
+			results: function (data, page) { // parse the results into the format expected by Select2.
+				// since we are using custom formatting functions we do not need to alter remote JSON data
+				return {results: data};
+			}
+		},
+		initSelection: function(element, callback) {
+			var value = $(element).val();
+			if (value !== "") {
+				callback({
+					id: value,
+					text: value
+				});
+			}
+		},
+       // Allow the user entered text to be selected as well
+       createSearchChoice:function(term, data) {
+			if ( $(data).filter( function() {
+				return this.text.localeCompare(term)===0;
+			}).length===0) {
+				return {id:term, text:term};
+			}
+		},
+	});
 
-     $('[for=username]').click(function(){
-        $("#username").select2('open');
-        return false;
-    });
+  	$('[for=username]').on('click', function(){
+		$("#username").select2('open');
+		return false;
+	});
 }
 // -->
 </script>
@@ -4792,13 +4761,13 @@ if(use_xmlhttprequest == "1")
 	{$lang->postbit_threads} {$post['threadnum']}<br />
 	{$lang->postbit_joined} {$post['userregdate']}
 	{$post['replink']}{$post['profilefield']}{$post['warninglevel']}]]></template>
-		<template name="private_messagebit" version="1815"><![CDATA[<tr>
-	<td align="center" class="trow1" width="1%"><span class="x_{$msgstatus}" title="{$msgalt}"></span></td>
-	<td align="center" class="trow2" width="1%">{$icon}</td>
-	<td class="trow1" width="35%"><a class="{$msgstatus}" href="private.php?action=read&amp;pmid={$message['pmid']}">{$message['subject']}</a>{$denyreceipt}</td>
-	<td align="center" class="trow2">{$tofromusername}</td>
-	<td class="trow1" align="right" style="white-space: nowrap"><span class="smalltext">{$senddate}</span></td>
-	<td class="trow2" align="center"><input type="checkbox" class="checkbox" name="check[{$message['pmid']}]" value="1" /></td>
+		<template name="private_messagebit" version="1829"><![CDATA[<tr>
+	<td class="{$bgcolor}" align="center" width="2%"><span class="x_{$msgstatus}" alt="{$msgalt}" title="{$msgalt}"></span></td>
+	<td class="{$bgcolor}" align="center" width="2%">{$icon}</td>
+	<td class="{$bgcolor}" width="35%"><a class="{$msgstatus}" href="private.php?action=read&amp;pmid={$message['pmid']}">{$message['subject']}</a>{$denyreceipt}</td>
+	<td class="{$bgcolor}" align="center">{$tofromusername}</td>
+	<td class="{$bgcolor}" align="right" style="white-space: nowrap"><span class="smalltext">{$senddate}</span></td>
+	<td class="{$bgcolor}" align="center" width="2%"><input type="checkbox" class="checkbox" name="check[{$message['pmid']}]" value="1" /></td>
 </tr>]]></template>
 		<template name="private_search_messagebit" version="1815"><![CDATA[<tr>
 	<td align="center" class="trow1" width="1%"><span class="x_{$msgstatus}" title="{$msgalt}"></span></td>
