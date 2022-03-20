@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme name="Devel" version="1829">
+<theme name="Devel" version="1830">
 	<properties>
-		<templateset><![CDATA[11]]></templateset>
+		<templateset><![CDATA[29]]></templateset>
 		<editortheme><![CDATA[mybb.css]]></editortheme>
 		<imgdir><![CDATA[themes/devel]]></imgdir>
 		<logo><![CDATA[themes/devel/logo.png]]></logo>
@@ -12,7 +12,7 @@
 		<disporder><![CDATA[a:18:{s:10:"global.css";i:1;s:8:"css3.css";i:2;s:14:"memberlist.css";i:3;s:17:"thread_status.css";i:4;s:16:"star_ratings.css";i:5;s:10:"usercp.css";i:6;s:14:"showthread.css";i:7;s:9:"modcp.css";i:8;s:15:"color_black.css";i:9;s:14:"color_calm.css";i:10;s:14:"color_dawn.css";i:11;s:15:"color_earth.css";i:12;s:15:"color_flame.css";i:13;s:14:"color_leaf.css";i:14;s:15:"color_night.css";i:15;s:13:"color_sun.css";i:16;s:18:"color_twilight.css";i:17;s:15:"color_water.css";i:18;}]]></disporder>
 	</properties>
 	<stylesheets>
-		<stylesheet name="global.css" version="1829"><![CDATA[/*
+		<stylesheet name="global.css" version="1830"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: global.css
@@ -654,12 +654,61 @@ table {
 	border-radius: 0px 0px 5px 5px;
 }
 .collapsed:after {
-	content: 'Show More';
+/*	content: 'Show More'; */
 	opacity: 0.9;
 }
 .expanded:after {
-	content: 'Show Less';
+/*	content: 'Show Less'; */
 	opacity: 0.7;
+}
+/* english */
+.collapsed:lang(en):after{
+   content: 'Show More';
+}
+.expanded:lang(en):after{
+   content: 'Show Less';
+}
+/* espanol */
+.collapsed:lang(es):after{
+   content: 'Mostrar más';
+}
+.expanded:lang(es):after{
+   content: 'Muestra menos';
+}
+/* french */
+.collapsed:lang(fr):after{
+   content: 'Montre plus';
+}
+.expanded:lang(fr):after{
+   content: 'Montrer moins';
+}
+/* italiano */
+.collapsed:lang(it):after{
+   content: 'Mostra di più';
+}
+.expanded:lang(it):after{
+   content: 'Mostra meno';
+}
+/* german */
+.collapsed:lang(de):after{
+   content: 'Zeig mehr';
+}
+.expanded:lang(de):after{
+   content: 'Zeige weniger';
+}
+/* russian */
+.collapsed:lang(ru):after{
+   content: 'Показать больше';
+}
+.expanded:lang(ru):after{
+   content: 'Показывай меньше';
+}
+/* polish */
+.collapsed:lang(pl):after{
+   content: 'Pokaż więcej';
+}
+.expanded:lang(pl):after{
+   content: 'Pokaż mniej';
 }
 .collapsed:hover:after, .expanded:hover:after {
 	opacity: 1;
@@ -1977,9 +2026,10 @@ div.jqi .jqisubstate .jqibuttons button {
 	border-bottom: 1px solid #000;
 }
 
-/* END: Custom Scrollbar */		]]>
+/* END: Custom Scrollbar */		
+		]]>
 		</stylesheet>
-		<stylesheet name="css3.css" version="1829"><![CDATA[/*
+		<stylesheet name="css3.css" version="1830"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: css3.css
@@ -2126,9 +2176,10 @@ a.button {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-}]]>
+}
+		]]>
 		</stylesheet>
-		<stylesheet name="memberlist.css" version="1829"><![CDATA[/*
+		<stylesheet name="memberlist.css" version="1830"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: memberlist.css
@@ -2239,9 +2290,10 @@ h4 {
 	width: 100%;
 	text-align: center;
 }
-}		]]>
+}		
+		]]>
 		</stylesheet>
-		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1829"><![CDATA[/*
+		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1830"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: thread_status.css
@@ -2596,9 +2648,10 @@ h4 {
     z-index: 0;
     background-color: #333;
     border: #333 1px solid;
-}]]>
+}
+		]]>
 		</stylesheet>
-		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1829"><![CDATA[/*
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1830"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: star_rating.css
@@ -2712,9 +2765,10 @@ li[style*="100"]~ li:nth-child(n+2) a  {
 td[id*="rating_table"] {
 text-align:center;
 margin:0 auto;
-}]]>
+}
+		]]>
 		</stylesheet>
-		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1829"><![CDATA[/*
+		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1830"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: usercp.css
@@ -2942,9 +2996,10 @@ td[class^=trow]{
 	top:11px; right:5px; 
 	color: #663096; 
 	font-size:16px;
-}]]>
+}
+		]]>
 		</stylesheet>
-		<stylesheet name="showthread.css" attachedto="showthread.php" version="1829"><![CDATA[/*
+		<stylesheet name="showthread.css" attachedto="showthread.php" version="1830"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: showthread.css
@@ -3091,9 +3146,10 @@ ul.thread_tools li.poll:after {
 	text-align: center;
 	padding: 20px;
 	width: 100%;
-}]]>
+}
+		]]>
 		</stylesheet>
-		<stylesheet name="modcp.css" attachedto="modcp.php" version="1829"><![CDATA[/*
+		<stylesheet name="modcp.css" attachedto="modcp.php" version="1830"><![CDATA[/*
  * MyBB: Community Like Header Theme 
  *
  * File: modcp.css
@@ -3186,9 +3242,10 @@ ul.thread_tools li.poll:after {
     margin: 0;
     width: 150px;
     padding: 0;
-}]]>
+}
+		]]>
 		</stylesheet>
-		<stylesheet name="color_black.css" attachedto="black" version="1829"><![CDATA[a:link,
+		<stylesheet name="color_black.css" attachedto="black" version="1830"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3303,9 +3360,10 @@ color: #202121;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_calm.css" attachedto="calm" version="1829"><![CDATA[a:link,
+		<stylesheet name="color_calm.css" attachedto="calm" version="1830"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3387,9 +3445,10 @@ color: #385947;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_dawn.css" attachedto="dawn" version="1829"><![CDATA[a:link,
+		<stylesheet name="color_dawn.css" attachedto="dawn" version="1830"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3471,9 +3530,10 @@ color: #d56c2c;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_earth.css" attachedto="earth" version="1829"><![CDATA[a:link,
+		<stylesheet name="color_earth.css" attachedto="earth" version="1830"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3554,9 +3614,10 @@ color: #4a3b2f;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_flame.css" attachedto="flame" version="1829"><![CDATA[a:link,
+		<stylesheet name="color_flame.css" attachedto="flame" version="1830"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3638,9 +3699,10 @@ color: #750000;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_leaf.css" attachedto="leaf" version="1829"><![CDATA[a:link,
+		<stylesheet name="color_leaf.css" attachedto="leaf" version="1830"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3722,9 +3784,10 @@ color: #386e21;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_night.css" attachedto="night" version="1829"><![CDATA[a:link,
+		<stylesheet name="color_night.css" attachedto="night" version="1830"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3805,9 +3868,10 @@ color: #022338;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_sun.css" attachedto="sun" version="1829"><![CDATA[a:link,
+		<stylesheet name="color_sun.css" attachedto="sun" version="1830"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3896,9 +3960,10 @@ color: #ffdd4d;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_twilight.css" attachedto="twilight" version="1829"><![CDATA[a:link,
+		<stylesheet name="color_twilight.css" attachedto="twilight" version="1830"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -3979,9 +4044,10 @@ color: #273a46;
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="color_water.css" attachedto="water" version="1829"><![CDATA[a:link,
+		<stylesheet name="color_water.css" attachedto="water" version="1830"><![CDATA[a:link,
 a:visited,
 a:hover,
 a:active {
@@ -4055,6 +4121,7 @@ color: #1e6365;
 }
 
 
+		
 		
 		
 		

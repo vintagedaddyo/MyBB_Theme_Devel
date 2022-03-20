@@ -29,6 +29,7 @@ Devel v1.1
 
 History:
 
+03/19/2022 — Updated "Devel-theme.xml" file to 1.8.30
 10/2/2021 — Updated "Devel-theme.xml" file to 1.8.29
 01/1/2020 — Updated "Devel-theme.xml" file to 1.8.22
 07/11/2019 — Updated "Devel-theme.xml" file to 1.8.21
